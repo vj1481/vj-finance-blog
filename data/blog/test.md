@@ -5,6 +5,6 @@ tags:
   - test
   - test2
 ---
-![](public/static/images/uploads/investing.svg)
+![](public/static/images/uploads/undraw_calculator_0evy.svg)
 
 test body
