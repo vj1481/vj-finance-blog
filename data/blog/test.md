@@ -5,6 +5,6 @@ tags:
   - test
   - test2
 ---
-![](public/static/images/uploads/undraw_calculator_0evy.svg)
+![](public/static/images/uploads/undraw_quitting_time_dm8t.svg)
 
 test body
