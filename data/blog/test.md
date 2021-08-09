@@ -5,4 +5,6 @@ tags:
   - test
   - test2
 ---
+![](public/static/images/uploads/investing.svg)
+
 test body
