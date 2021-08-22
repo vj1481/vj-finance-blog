@@ -1,16 +1,10 @@
 ---
-name: Tails Azimuth
+name: Vijay
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+occupation: Software Architect
+email: vijaysudheerwebmails@gmail.com
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Myself Vijay a typical software engineer grinding through this 9-5 career from the past 10 years until 4 years ago I discovered the FiRe[Financial Independence and Retirement Early] movement and decided to take on the incredible this journey and along the way learned and discovered many things about personal finance, investing, lifestyle and entrepreneurship.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I will use this blog to document my journey as way of explaining my life/financial choices with my friends and foes.
