@@ -2,7 +2,7 @@ import React from 'react'
 
 const localeOptions = {
   style: 'currency',
-  currency: 'GBP',
+  currency: 'INR',
   minimumFractionDigits: 0,
   maximumFractionDigits: 0,
 }
@@ -12,7 +12,7 @@ export const CalculatorControls = (props) => {
     <div className="flex flex-row">
       <div className="grid__item">
         <span className="grid__item--header">
-          {parseInt(props.purchasingHousePrice).toLocaleString('en-GB', localeOptions)}
+          {parseInt(props.purchasingHousePrice).toLocaleString('en-IN', localeOptions)}
         </span>
         <input
           type="range"
