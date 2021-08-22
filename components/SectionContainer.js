@@ -1,5 +1,5 @@
 export default function SectionContainer({ children }) {
-  return <div className=" max-w-7xl mx-auto ">{children}</div>
+  return <div className=" max-w-7xl px-2 mx-auto sm:px-6 xl:max-w-5xl xl:px-0 ">{children}</div>
 }
 
 // max-w-5xl px-2 mx-auto sm:px-6 xl:max-w-5xl xl:px-0
