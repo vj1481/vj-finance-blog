@@ -1,7 +1,7 @@
 import React from 'react'
 const localeOptions = {
   style: 'currency',
-  currency: 'GBP',
+  currency: 'INR',
   minimumFractionDigits: 2,
   maximumFractionDigits: 2,
 }
@@ -12,15 +12,15 @@ export const PaymentTable = (props) => {
     paymentMonthsArr.push(
       <tr key={props.yearlyPayments[i].year}>
         <td>{props.yearlyPayments[i].year}</td>
-        <td>{props.yearlyPayments[i].interestPaid.toLocaleString('en-GB', localeOptions)}</td>
+        <td>{props.yearlyPayments[i].interestPaid.toLocaleString('en-IN', localeOptions)}</td>
         <td className="to-date-yearly-payment">
-          {props.yearlyPayments[i].interestPaidToDate.toLocaleString('en-GB', localeOptions)}
+          {props.yearlyPayments[i].interestPaidToDate.toLocaleString('en-IN', localeOptions)}
         </td>
-        <td>{props.yearlyPayments[i].principalRepaid.toLocaleString('en-GB', localeOptions)}</td>
+        <td>{props.yearlyPayments[i].principalRepaid.toLocaleString('en-IN', localeOptions)}</td>
         <td className="to-date-yearly-payment">
-          {props.yearlyPayments[i].principalRepaidToDate.toLocaleString('en-GB', localeOptions)}
+          {props.yearlyPayments[i].principalRepaidToDate.toLocaleString('en-IN', localeOptions)}
         </td>
-        <td>{props.yearlyPayments[i].outstandingBalance.toLocaleString('en-GB', localeOptions)}</td>
+        <td>{props.yearlyPayments[i].outstandingBalance.toLocaleString('en-IN', localeOptions)}</td>
       </tr>
     )
   }

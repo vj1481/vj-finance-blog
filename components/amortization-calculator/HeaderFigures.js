@@ -18,20 +18,20 @@ export const HeaderFigures = (props) => {
       </div>
       <div className="text-right space-y-3 mr-20">
         <span className="font-bold bottom-4">
-          {parseInt(props.monthlyPayment).toLocaleString('en-GB', localeOptions)}
+          {parseInt(props.monthlyPayment).toLocaleString('en-IN', localeOptions)}
         </span>
         <div className="italic">Monthly Payment</div>
       </div>
       ;
       <div className="text-right space-y-3 mr-20">
         <span className="font-bold bottom-2">
-          {parseInt(props.totalRepaid).toLocaleString('en-GB', localeOptions)}
+          {parseInt(props.totalRepaid).toLocaleString('en-IN', localeOptions)}
         </span>
         <div className="italic">Total Repaid</div>
       </div>
       <div className="text-right space-y-3 mr-20 ">
         <span className="font-bold text-red-500  bottom-2">
-          {parseInt(props.totalInterestPaid).toLocaleString('en-GB', localeOptions)}
+          {parseInt(props.totalInterestPaid).toLocaleString('en-IN', localeOptions)}
         </span>
         <div className="italic">Total Interest Paid</div>
       </div>

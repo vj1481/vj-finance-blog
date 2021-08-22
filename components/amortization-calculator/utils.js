@@ -40,7 +40,7 @@ export const handleMortgageDataChange = (
     interestPaidToDate = interestPaidToDate + interestPaidMonthlyToYearlyIncrementer
     principalRepaidToDate = principalRepaidToDate + monthlyPrincipalRepaidToYearlyIncrementer
 
-    //There's always around £10 left at the end which forces the fraph to go into minus. This just rounds the last figure off at £0.00.
+    //There's always around ₹10 left at the end which forces the fraph to go into minus. This just rounds the last figure off at ₹0.00.
     if (i === mortgageTerm) {
       outstandingBalance = 0
     }

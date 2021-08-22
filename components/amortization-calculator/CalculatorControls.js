@@ -30,7 +30,7 @@ export const CalculatorControls = (props) => {
       </div>
       <div className="grid__item">
         <span className="grid__item--header">
-          {parseInt(props.depositAmount).toLocaleString('en-GB', localeOptions)}
+          {parseInt(props.depositAmount).toLocaleString('en-IN', localeOptions)}
         </span>
         <input
           type="range"

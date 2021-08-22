@@ -78,7 +78,7 @@ const graphOption = {
             if (value === 0) {
               return value
             }
-            return '£' + value / 1000 + 'K'
+            return '₹' + value / 1000 + 'K'
           },
         },
       },
@@ -91,9 +91,9 @@ const graphOption = {
     callbacks: {
       label: function (tooltipItems, data, index) {
         return (
-          parseFloat(tooltipItems.value).toLocaleString('en-GB', {
+          parseFloat(tooltipItems.value).toLocaleString('en-IN', {
             style: 'currency',
-            currency: 'GBP',
+            currency: 'INR',
           }) +
           ' ' +
           data.datasets[tooltipItems.datasetIndex].label
