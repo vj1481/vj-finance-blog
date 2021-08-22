@@ -1,6 +1,6 @@
 const siteMetadata = {
   title: 'Vijay Financial Independence Blog',
-  author: 'Vijay Sudheer',
+  author: 'Vijay',
   headerTitle: 'Vijay Personal Finance Journey',
   description:
     'This is a place where I document my personal finance journey in pusuit of Financial Independence',

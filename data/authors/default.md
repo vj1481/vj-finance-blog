@@ -1,7 +1,7 @@
 ---
 name: Vijay
 avatar: /static/images/undraw_product_iteration.svg
-occupation: Software Architect
+occupation: Software Professional
 email: vijaysudheerwebmails@gmail.com
 ---
 
