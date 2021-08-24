@@ -29,7 +29,7 @@ export const CalculatorControls = (props) => {
             />
           </div>
 
-          <label className=" italic font-light">Purchasing House Price</label>
+          <label htmlFor="purchasingHousePrice" className=" italic font-light">Purchasing House Price</label>
         </div>
         <div className="grid__item">
           <span className="grid__item--header">
