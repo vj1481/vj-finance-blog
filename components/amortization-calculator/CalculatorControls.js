@@ -72,36 +72,38 @@ export const CalculatorControls = (props) => {
           </label>
         </div>
       </div>
-      <div className="flex just">
-        <div className="grid__item">
-          <span className="grid__item--header">{props.mortgageTerm} Years</span>
+      <div className="flex  justify-between">
+        <div className="text-left  flex-grow font-semibold space-y-2">
+          <span className="bottom-2">{props.mortgageTerm} Years</span>
+          <div>
           <input
             type="range"
-            className="grid__item--range-slider"
+            className=" w-80"
             id="mortgageTerm"
             min="5"
             max="35"
             step="1"
             value={props.mortgageTerm}
             onChange={(event) => props.setMortgageTerm(event.target.value)}
-          />
-          <label className="grid__item--label" htmlFor="mortgageTerm">
+          /></div>
+          <label className="italic font-light" htmlFor="mortgageTerm">
             Mortgage Term
           </label>
         </div>
-        <div className="grid__item">
-          <span className="grid__item--header">{props.interestRate}%</span>
+        <div className="text-left  flex-grow font-semibold space-y-2">
+          <span className="bottom-2">{props.interestRate}%</span>
+          <div>
           <input
             type="range"
-            className="grid__item--range-slider"
+            className="w-80"
             id="interestRate"
             min="0.1"
             max="8"
             step="0.1"
             value={props.interestRate}
             onChange={(event) => props.setInterestRate(event.target.value)}
-          />
-          <label className="grid__item--label" htmlFor="interestRate">
+          /></div>
+          <label className="italic font-light" htmlFor="interestRate">
             Interest Rate
           </label>
         </div>
