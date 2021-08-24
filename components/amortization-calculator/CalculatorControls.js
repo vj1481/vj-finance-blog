@@ -18,7 +18,7 @@ export const CalculatorControls = (props) => {
           <input
             className="pl-2 "
             min="50000"
-            max="7500000"
+            max="75000000"
             step="1000"
             value={props.purchasingHousePrice}
             onChange={(event) => props.setPurchasingHousePrice(event.target.value)}
@@ -30,7 +30,7 @@ export const CalculatorControls = (props) => {
               className=" w-80"
               id="purchasingHousePrice"
               min="50000"
-              max="7500000"
+              max="75000000"
               step="1000"
               value={props.purchasingHousePrice}
               onChange={(event) => props.setPurchasingHousePrice(event.target.value)}
@@ -49,7 +49,7 @@ export const CalculatorControls = (props) => {
             className="pl-2 "
             id="depositAmount"
             min="1000"
-            max="150000"
+            max="15000000"
             step="1000"
             value={props.depositAmount}
             onChange={(event) => props.setDepositAmount(event.target.value)}
@@ -60,7 +60,7 @@ export const CalculatorControls = (props) => {
               className=" w-80"
               id="depositAmount"
               min="1000"
-              max="150000"
+              max="15000000"
               step="1000"
               value={props.depositAmount}
               onChange={(event) => props.setDepositAmount(event.target.value)}
@@ -98,7 +98,7 @@ export const CalculatorControls = (props) => {
               className="w-80"
               id="interestRate"
               min="0.1"
-              max="8"
+              max="16"
               step="0.1"
               value={props.interestRate}
               onChange={(event) => props.setInterestRate(event.target.value)}
