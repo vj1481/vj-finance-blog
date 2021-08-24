@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'Vijay',
   headerTitle: 'Vijay Personal Finance Journey',
   description:
-    'This is a place where I document my personal finance journey in pusuit of Financial Independence',
+    'This is a place where I document my personal finance journey in pursuit of Financial Independence',
   language: 'en-us',
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
   siteRepo: 'https://github.com/vj1481/vj-finance-blog',
