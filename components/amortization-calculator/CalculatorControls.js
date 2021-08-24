@@ -8,23 +8,27 @@ const localeOptions = {
 }
 
 export const CalculatorControls = (props) => {
-  return (
-    <div className="flex flex-row">
-      <div className="grid__item">
-        <span className="grid__item--header">
+  return (<>
+    <div className="flex  justify-between">
+      <div className=" text-left  flex-grow font-semibold space-y-2">
+        <span className="bottom-2">
           {parseInt(props.purchasingHousePrice).toLocaleString('en-IN', localeOptions)}
         </span>
-        <input
+             
+        <div ><input 
           type="range"
-          className="grid__item--range-slider"
+          className=" w-96"
           id="purchasingHousePrice"
           min="50000"
-          max="750000"
+          max="7500000"
           step="1000"
           value={props.purchasingHousePrice}
           onChange={(event) => props.setPurchasingHousePrice(event.target.value)}
         />
-        <label className="grid__item--label" htmlFor="purchasingHousePrice">
+  
+        </div>
+        
+        <label className=" italic font-light" >
           Purchasing House Price
         </label>
       </div>
@@ -46,6 +50,8 @@ export const CalculatorControls = (props) => {
           Deposit
         </label>
       </div>
+</div>
+<div className="flex just">
       <div className="grid__item">
         <span className="grid__item--header">{props.mortgageTerm} Years</span>
         <input
@@ -79,5 +85,5 @@ export const CalculatorControls = (props) => {
         </label>
       </div>
     </div>
-  )
+</>  )
 }
