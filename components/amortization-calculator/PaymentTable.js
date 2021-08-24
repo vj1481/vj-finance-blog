@@ -24,9 +24,9 @@ export const PaymentTable = (props) => {
   }
 
   return (
-    <section class="container mx-auto p-6 font-mono">
-      <div class="w-full mb-8 overflow-hidden rounded-lg shadow-lg pl-4  bg-purple-100">
-        <div class="w-full overflow-x-auto">
+    <section className="container mx-auto p-6 font-mono">
+      <div className="w-full mb-8 overflow-hidden rounded-lg shadow-lg pl-4  bg-purple-100">
+        <div className="w-full overflow-x-auto">
           <table className="table-auto w-full">
             <thead>
               <tr>
