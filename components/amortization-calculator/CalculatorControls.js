@@ -13,13 +13,21 @@ export const CalculatorControls = (props) => {
       <div className="flex  justify-between">
         <div className=" text-left  flex-grow font-semibold space-y-2">
           <span className="bottom-2">
-            {parseInt(props.purchasingHousePrice).toLocaleString('en-IN', localeOptions)}
+            {parseInt(0).toLocaleString('en-IN', localeOptions).replace(/\d/g, '').trim()}
           </span>
+           <input
+            className="pl-2 "
+            min="50000"
+            max="7500000"
+            step="1000"
+            value={props.purchasingHousePrice}
+            onChange={(event) => props.setPurchasingHousePrice(event.target.value)}
+          />
 
           <div>
             <input
               type="range"
-              className=" w-96"
+              className=" w-80"
               id="purchasingHousePrice"
               min="50000"
               max="7500000"
@@ -32,22 +40,34 @@ export const CalculatorControls = (props) => {
           <label htmlFor="purchasingHousePrice" className=" italic font-light">
             Purchasing House Price
           </label>
+         
         </div>
-        <div className="grid__item">
-          <span className="grid__item--header">
-            {parseInt(props.depositAmount).toLocaleString('en-IN', localeOptions)}
+        <div className="text-left  flex-grow font-semibold space-y-2">
+        <span className="bottom-2">
+            {parseInt(0).toLocaleString('en-IN', localeOptions).replace(/\d/g, '').trim()}
           </span>
-          <input
-            type="range"
-            className="grid__item--range-slider"
-            id="depositAmount"
-            min="1000"
-            max="150000"
-            step="1000"
-            value={props.depositAmount}
-            onChange={(event) => props.setDepositAmount(event.target.value)}
-          />
-          <label className="grid__item--label" htmlFor="points">
+           <input
+            className="pl-2 "
+              id="depositAmount"
+              min="1000"
+              max="150000"
+              step="1000"
+              value={props.depositAmount}
+              onChange={(event) => props.setDepositAmount(event.target.value)}
+            />
+          <div>
+            <input
+              type="range"
+              className=" w-80"
+              id="depositAmount"
+              min="1000"
+              max="150000"
+              step="1000"
+              value={props.depositAmount}
+              onChange={(event) => props.setDepositAmount(event.target.value)}
+            />
+          </div>
+          <label className="italic font-light" htmlFor="points">
             Deposit
           </label>
         </div>
